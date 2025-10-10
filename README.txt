@@ -7,3 +7,4 @@ git push -u origin main
 pentru actualizare CTRL+SHIFT+G
 adaugare comentariu
 Commit
+Sync changes
