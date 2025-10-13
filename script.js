@@ -63,17 +63,69 @@
 //         //FUNCTII
 //     //DATE CALENDARISTICE
 //     //EXPRESII REGEX- TOPIC MAI COMPLEX
-let firstNumber={value:1};
-let secondNumber=firstNumber;
-console.log(firstNumber);
-console.log(secondNumber);
+// let firstNumber={value:1};
+// let secondNumber=firstNumber;
+// console.log(firstNumber);
+// console.log(secondNumber);
 
-secondNumber.value=10;
-console.log(firstNumber);
-console.log(secondNumber);
+// secondNumber.value=10;
+// console.log(firstNumber);
+// console.log(secondNumber);
 // firstNumber=10;
 // secondNumber=firstNumber;
 // console.log(firstNumber);
 // console.log(secondNumber);
 
 //OPERATORI IN JAVASCRIPT
+//aritmetici +,-,*,/, % pt rest ++,--
+// let firstName=10;
+// let secondNumber=2;
+// console.log(firstName+secondNumber);
+// console.log(firstName-secondNumber);
+// console.log(firstName*secondNumber);
+// console.log(firstName/secondNumber);
+// console.log(firstName%secondNumber);
+// let myNumber=1;
+// myNumber++; //myNumber=myNumber+1 , incrementare
+// myNumber--; //decrementare
+// console.log(myNumber);
+
+//OPERATORII DE COMPARATIE
+//<,<=<>,>=,==,!=,===,!==
+// let firstName=10;
+// let secondNumber="10";
+// console.log(firstName>secondNumber);
+// console.log(firstName<=secondNumber);
+// console.log(firstName==secondNumber);
+// console.log(firstName===secondNumber);
+// daca folosim ==, se compara valoarea celor doua variabile
+///daca folosim === se compara atat valoarea, cat si tipul de date, astfel ele nu mai sunt egale (numar vs string)
+
+//OPERATORI LOGICI
+// &&(AND), || (OR),! (NOT) 
+// let expression1=3>5; //false
+// let expression2=1<=2; //true
+// console.log(expression1 && expression2); //expresia este adevarata daca ambele sunt adevarate
+// console.log(expression1 ||  expression2); //expresia adevarata daca vel putin una este adevarata
+// console.log(!expression1);
+
+//OPERATORUL DE ATRIBUIRE =, -+, +=,*=, /=, %=
+//atribuim o valoare unei variabile
+
+// let firstNumber=10;
+// firstNumber -=5; // firstnumber=firstnuiber-5;
+// console.log(firstNumber);
+//operatorul de concatenare
+// let firstName="Alex";
+// let secondName="Pop";
+// let fullName=firstName+" "+secondName;
+// console.log(fullName);
+
+//operatorul ternar
+//expresie ?<exp adevarata> :<exp falsa>
+//let result =3<5 ?"adevarat":"fals";
+// console.log(result);
+//SIRURI DE CARACTERE
+
+
+
