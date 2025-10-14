@@ -176,8 +176,8 @@
 // console.log(myArray.reverse())
 // myArray.push(100); //adaugare element la array la final
 // console.log(myArray);
-// myArray.unshift(100);
-// console.log(myArray); //adaugare la inceput
+// myArray.unshift(100);//adaugare la inceput
+// console.log(myArray); 
 //eliminare ultimul element
 // let element=myArray.pop();//elimina de la sfarsit si returneaza elementul pe care l-a eliminat
 // console.log(element); 
