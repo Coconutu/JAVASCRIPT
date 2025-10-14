@@ -111,7 +111,6 @@
 
 //OPERATORUL DE ATRIBUIRE =, -+, +=,*=, /=, %=
 //atribuim o valoare unei variabile
-
 // let firstNumber=10;
 // firstNumber -=5; // firstnumber=firstnuiber-5;
 // console.log(firstNumber);
@@ -122,9 +121,11 @@
 // console.log(fullName);
 
 //operatorul ternar
+
 //expresie ?<exp adevarata> :<exp falsa>
 //let result =3<5 ?"adevarat":"fals";
 // console.log(result);
+
 //SIRURI DE CARACTERE -stringuri
 // let firstName='Alex';
 // console.log(firstName);
@@ -153,8 +154,49 @@
 // console.log(message);
 // message="Acesta \"este\" un mesaj"; //am facut Escape la caracterele speciale
 // console.log(message);
+
 //interpolarea stringurilor
+
 // let firstName="Alex";
 // let lastName= "Pop";
 // let message=`Numele meu este: ${firstName},${lastName}`; //folosim caracterul ` (stanga lui 1)
 // console.log(message);
+//Array - pot avea aceleasi tipuri de date sau diferite
+// let myArray=[6,3,1,9,4,10,9];
+// console.log(myArray);
+// console.log(myArray[2]); 
+// console.log(myArray.length); //lungime array
+// console.log(myArray[myArray.length-1])
+// myArray[1]=13;
+// console.log(myArray);
+// console.log(myArray.includes(9)); //cautare valoare in array, returneaza true daca valoarea este in array si false daca nu este in array
+// console.log(myArray.indexOf(9)); //returneaza primul indexu pe care se afla elemenul
+// console.log(myArray.join("="));//facem string din elementele unui array
+// reverse la elementele uni array
+// console.log(myArray.reverse())
+// myArray.push(100); //adaugare element la array la final
+// console.log(myArray);
+// myArray.unshift(100);
+// console.log(myArray); //adaugare la inceput
+//eliminare ultimul element
+// let element=myArray.pop();//elimina de la sfarsit si returneaza elementul pe care l-a eliminat
+// console.log(element); 
+// console.log(`S-a eliminat elementul ${element}`); 
+// console.log(myArray);
+// let element1=myArray.shift(); //elimina elementul de la inceput
+// console.log(myArray);
+//eliminam elementele din interior
+// let myArray=[6,3,1,9,4,10,9];
+// console.log(myArray);
+// let element2=myArray.splice(1,5);//elimina 3 elemente incepand cu indexul 1 si afiseaza elementele eliminate
+// console.log(`S-a eliminat elementul ${element2}`); 
+// console.log(myArray);
+// concatenare arrayuri
+// let myArray2=[100,101]
+// let myArray3=myArray.concat(myArray2); //prima varianta
+// console.log(myArray3);
+
+// let myArray4 =[...myArray,...myArray2];//a doua varianta - spread operator
+// console.log(myArray4);
+
+//DATE CALENDARISTICE
