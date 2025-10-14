@@ -125,7 +125,36 @@
 //expresie ?<exp adevarata> :<exp falsa>
 //let result =3<5 ?"adevarat":"fals";
 // console.log(result);
-//SIRURI DE CARACTERE
-
-
-
+//SIRURI DE CARACTERE -stringuri
+// let firstName='Alex';
+// console.log(firstName);
+// console.log(firstName[0]) //pun pozitia lui din string, numaratoarea incepe de la 0
+// console.log(firstName.length);
+// let lastName="Pop";
+// let fullName=firstName+" "+lastName;
+// console.log(fullName);
+// console.log(lastName.includes("o")); //verificam daca un string este inclus in altul
+// console.log(lastName.indexOf("o")); //verificam daca un string este inclus in altul, prin verificarea cu indexOf
+// let message="Acesta este un mesaj";
+// let message2=message.replace('mesaj','text');//inlocuim un string cu alt string
+// console.log(message);
+// console.log(message2); 
+// //functia trim ne ajuta sa eliminam spatiile de la inceput si sfarsit
+// console.log(message.trimStart()); //eloimina de la inceput
+// console.log(message.trimEnd()); //elimina de la sfarsit
+// console.log(message.trim()); //elimina si de la inceput si de la sfarsit
+// let arr=message.split(" "); //impartirea stringului
+// console.log(arr); //arr este un array cu 4 elemente care sunt cuvintele stringului
+// console.log(arr[0]); //acces la elementele arrayului
+// console.log(arr[1]); //acces la elementele arrayului
+// let newMessage=arr.join(","); //refacere string original
+// console.log(newMessage);
+// let message='Acesta "este" un mesaj';
+// console.log(message);
+// message="Acesta \"este\" un mesaj"; //am facut Escape la caracterele speciale
+// console.log(message);
+//interpolarea stringurilor
+// let firstName="Alex";
+// let lastName= "Pop";
+// let message=`Numele meu este: ${firstName},${lastName}`; //folosim caracterul ` (stanga lui 1)
+// console.log(message);
