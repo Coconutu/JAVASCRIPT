@@ -200,3 +200,27 @@
 // console.log(myArray4);
 
 //DATE CALENDARISTICE
+// let currentDate=new Date(); //creare obiect ca si in Java
+// console.log(currentDate);
+// console.log(typeof currentDate);
+
+// let date2=new Date(2023,11,17);
+// console.log(date2);
+
+// let date3=new Date("2023-12-20 10:50:35");
+// console.log(date3);
+
+// console.log(date3.getFullYear()); //paranteze rotunde pentru ca e o metoda
+// console.log(date3.getMonth());
+// console.log(date3.getDate());
+// console.log(date3.getHours());
+// console.log(date3.getMinutes());
+// console.log(date3.getSeconds());
+
+// date3.setDate(25); //cum setam data ?, setfullyear, sethours
+// console.log(`date3 este ${date3.getDate()}`);
+//cat timp a trecut intre doua date ?
+// let date1=new Date(2023,11,10);
+// let date2=new Date(2023,11,20);
+// let dateDiff=date2-date1; //numarul de milisecunde care a trecut intre aceste date
+// console.log(dateDiff/(1000*60*60*24)); //convertim in zile
