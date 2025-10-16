@@ -224,3 +224,41 @@
 // let date2=new Date(2023,11,20);
 // let dateDiff=date2-date1; //numarul de milisecunde care a trecut intre aceste date
 // console.log(dateDiff/(1000*60*60*24)); //convertim in zile
+
+//instructiunile if si switch
+
+// if(conditie){
+//     //linii de cod daca considita este adevarata
+// }
+// else{
+//     //linii de cod daca conditia este falsa
+// }
+let age=18;
+
+if (age>18){
+    console.log("Major");
+}
+else if(age===18)
+{
+    console.log("egal cu 18");
+}
+else{
+    console.log("Minor");
+}
+
+let firstName="Mihai";
+switch (firstName){
+    case "Ana":
+        console.log("Numele meu este Ana");
+        break;
+    case 'Mihai':
+        console.log("Numele meu este Mihai");
+        break;
+    case 'Marius':
+        console.log("Numele meu este Marius");
+        break;
+    case 'Alex':
+        console.log("Numele meu este Alex");
+        break;
+    default: console.log("Numele este necunoscut"); //cand nu exista niciun caz care sa corespunda valorii expresiei
+}
