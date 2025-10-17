@@ -233,32 +233,94 @@
 // else{
 //     //linii de cod daca conditia este falsa
 // }
-let age=18;
+// let age=18;
 
-if (age>18){
-    console.log("Major");
-}
-else if(age===18)
+// if (age>18){
+//     console.log("Major");
+// }
+// else if(age===18)
+// {
+//     console.log("egal cu 18");
+// }
+// else{
+//     console.log("Minor");
+// }
+
+// let firstName="Mihai";
+// switch (firstName){
+//     case "Ana":
+//         console.log("Numele meu este Ana");
+//         break;
+//     case 'Mihai':
+//         console.log("Numele meu este Mihai");
+//         break;
+//     case 'Marius':
+//         console.log("Numele meu este Marius");
+//         break;
+//     case 'Alex':
+//         console.log("Numele meu este Alex");
+//         break;
+//     default: console.log("Numele este necunoscut"); //cand nu exista niciun caz care sa corespunda valorii expresiei
+// }
+// let number=1;
+// while(number<=10){
+//     console.log(number);
+//     number++;
+
+// }
+// number=0;
+// do{
+// console.log(number);
+// number++;
+// }
+// while (number<=10)
+// for(let i=1;i<=10;i++){
+//     console.log(i);
+// }
+// for(let j=1;j>0;j--){
+//     console.log(j);
+// }
+let myArray=["Ana","Mihai","Alina","Cosmin"];
+// for (let k=0;k<=myArray.length;k++)
+//     {
+//     console.log(myArray[k]);
+//     }
+// for (let m=myArray.length-1;m>=0;m--)
+//     {
+//     console.log(myArray[m]);
+//     }
+index=0;
+while(index<=myArray.length)
 {
-    console.log("egal cu 18");
+    console.log(myArray[index]);
+    index++;
 }
-else{
-    console.log("Minor");
+console.log("Afisare array cu ajutorul do-while")
+let k=0
+do{
+console.log(myArray[k]);
+k++;
+}
+while (k<myArray.length)
+ console.log("instructiunea brake ");
+for(let i=0;i<myArray.length;i++)
+{
+    console.log(myArray[i]);
+    if (myArray[i]==="Mihai"){
+        break; //iesim din instructiunea repetitiva
+
+    }
+}
+ console.log("instructiunea continue");
+for(let p=0;p<myArray.length;p++)
+{
+   
+    if (myArray[p]==="Mihai"){
+        continue; //sare peste un element din array, face ca ceea ce este dupa
+        //sa nu se mai execute si forul trece la urmatorul element
+        
+    }
+      console.log(myArray[p]);
 }
 
-let firstName="Mihai";
-switch (firstName){
-    case "Ana":
-        console.log("Numele meu este Ana");
-        break;
-    case 'Mihai':
-        console.log("Numele meu este Mihai");
-        break;
-    case 'Marius':
-        console.log("Numele meu este Marius");
-        break;
-    case 'Alex':
-        console.log("Numele meu este Alex");
-        break;
-    default: console.log("Numele este necunoscut"); //cand nu exista niciun caz care sa corespunda valorii expresiei
-}
+//FUNCTII
