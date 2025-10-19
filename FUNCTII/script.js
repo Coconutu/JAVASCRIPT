@@ -68,7 +68,7 @@ function myFunction1(param){
     afiseaza(`Valoarea lui param este ${param}`);
 }
 myFunction1(value);
+myFunction1(value);
 afiseaza(`Valoarea lui value este ${value}`);
 //cand trimitem variabile primitive la o functie, ele nu se modifica decat oin interiorul functiei
 //cand trimitem variabile referinta, orice modificare in cadrul functiei se reflecta si in exteriorul functiei
-//TRATARE EROORI
