@@ -1,22 +1,20 @@
-const taskForm = document.querySelector("#taskForm");
-taskForm.addEventListener("submit", doFormSubmit);
-function doFormSubmit(event) {
+const taskForm=document.querySelector("#taskForm");
+taskForm.addEventListener("submit",onTaskFormSubmit);
+function onTaskFormSubmit(event){
     event.preventDefault();
-    const taskList = document.querySelector(".tasks");
-    const taskInput = document.querySelector("input");
-    if (!taskInput.value) {
-        alert("Introduceti descrierea!");
+    const inputValue=document.querySelector("input");
+    const listForm=document.querySelector(".tasks");
+    if (!inputValue.value){
+        alert("Introduceti descrierea");
         return;
     }
-    const newTask = document.createElement("li");
-    newTask.innerText = taskInput.value;
+    const newTask=document.createElement("li");
+    newTask.innerText=inputValue.value;
     newTask.classList.add("tasks");
-    taskList.append(newTask);
-
-    newTask.addEventListener("click", () => {
+    listForm.append(newTask);
+    newTask.addEventListener("click",()=>{
         newTask.remove();
-
     })
-
-    taskInput.value = "";
+    
+    inputValue.value="";
 }
