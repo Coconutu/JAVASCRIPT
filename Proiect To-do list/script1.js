@@ -3,13 +3,13 @@ taskForm.addEventListener("submit", doFormSubmit);
 function doFormSubmit(event) {
     event.preventDefault();
     const taskList = document.querySelector(".tasks");
-    const taskInput = document.querySelector("input");
-    if (!taskInput.value) {
+    const listItem = document.querySelector("input");
+    if (!listItem.value) {
         alert("Introduceti descrierea!");
         return;
     }
     const newTask = document.createElement("li");
-    newTask.innerText = taskInput.value;
+    newTask.innerText = listItem.value;
     newTask.classList.add("tasks");
     taskList.append(newTask);
 
@@ -18,5 +18,6 @@ function doFormSubmit(event) {
 
     })
 
-    taskInput.value = "";
+
 }
+listItem.value = "";

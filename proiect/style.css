@@ -1,32 +1,27 @@
-.titlu{
-    color:blue;
-    font-family: Arial, sans-serif;
+body{
+    background-color: antiquewhite;
 }
-.container{
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color:violet;
     
-    margin: auto;
-    background-color: #f4f4f4;
-     border-radius: 5px;
 }
-.tasks li{
-    list-style-type: none;
-    padding: 1rem;
-    background-color: green;
-    color: white;
-    margin: 0.5rem 0;
+.btnClass{
+    color: red;
+    font-size: 1rem;
+    border-radius: 4px;
+}
 
+.tasks li{
+    color: green;
+    padding: 1 rem;
+    background-color: aqua;
+    margin: 1%;
+    border-radius: 1rem;
+    font-size: larger;
 }
-.task-form button{
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.task-form input{
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-right: 1rem;
+.task-Form input{
+color:blue;
+background-color:aquamarine;
 }
