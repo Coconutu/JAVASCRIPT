@@ -16,5 +16,5 @@ function onTaskFormSubmit(event) {
     newTask.addEventListener("click", () => {
         newTask.remove();
     })       
-taskinput.value = "";
+    taskinput.value = "";
 }
