@@ -1,19 +1,19 @@
-const getForm = document.querySelector('.task-form');
-getForm.addEventListener('submit', doSubmitForm)
-function doSubmitForm(event) {
+const listForm=document.querySelector("#taskForm");
+listForm.addEventListener("submit",doFormSubmit);
+function doFormSubmit(event){
     event.preventDefault();
-    const inputField = document.querySelector('.task-input');
-    const taskList = document.querySelector('.tasks');
-    if (!inputField.value) {
-        alert("Please enter a task!");
+    const formInput=document.querySelector("input");
+    const listItem=document.querySelector(".tasks");
+    if(!formInput.value){
+        alert("Introduceti descrierea");
         return;
     }
-    const newTask = document.createElement('li');
-    newTask.textContent = inputField.value;
-    newTask.classList.add('task-item');
-    taskList.append(newTask);
-    newTask.addEventListener('click', ()=>newTask.remove());
-    inputField.value = '';
-    
-    }
-    
+    const newItem=document.createElement("li");
+    newItem.innerText=formInput.value;
+    newItem.classList.add("tasks");
+    listItem.append(newItem);
+    newItem.addEventListener("click",()=>{
+        newItem.remove();
+    })
+   formInput.value=""; 
+}

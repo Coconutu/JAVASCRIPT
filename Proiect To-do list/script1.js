@@ -2,21 +2,21 @@ const taskForm=document.querySelector("#taskForm");
 taskForm.addEventListener("submit",doFormSubmit);
 function doFormSubmit(event){
     event.preventDefault();
-    const textInput=document.querySelector("input");
-    const taskList=document.querySelector(".tasks");
-    if (!textInput.value){
-        alert("Introduceti descrierea!")
+    const taskList = document.querySelector(".tasks");
+    const taskInput = document.querySelector("input");
+    if (!taskInput.value) {
+        alert("Introduceti descrierea!");
         return;
     }
-    const newItem=document.createElement("li");
-    newItem.innerText=textInput.value;
-    newItem.classList.add("tasks");
-    newItem.addEventListener("click",()=>{
-        newItem.remove();
+    const newTask = document.createElement("li");
+    newTask.innerText = taskInput.value;
+    newTask.classList.add("tasks");
+    taskList.append(newTask);
+
+    newTask.addEventListener("click", () => {
+        newTask.remove();
+
     })
-    taskList.append(newItem);
-    textInput.value="";
+
+    taskInput.value = "";
 }
-const newOption=new Option("Varianta 3","Varianta 3");
-const combo=document.querySelector("select");
-combo.add(newOption);
