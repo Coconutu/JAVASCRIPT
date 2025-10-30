@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.storage-form input{
+    padding: 5rem;
+}
+button{
+    color: aliceblue;
+    background-color: aquamarine;
+    border-color: cadetblue;
+    padding: 5rem;
+    cursor: pointer;
+}
+.clear-btn{
+background-color: red;
+margin-bottom: 1rem;
+}
