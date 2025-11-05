@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+.titlu{
+    font-family: 'Courier New', Courier, monospace;
+}
+.save-btn{
+    padding: 1rem;
+    background-color: aquamarine;
+}
+.clear-btn{
+    padding: 1rem;
+    background-color: chocolate;
+    
+}
+input{
+    padding: 1rem;
+}
+.storage-data{
+    padding: 1rem;
+
+}
+
+
+
