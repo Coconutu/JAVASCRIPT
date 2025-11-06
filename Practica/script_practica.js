@@ -18,6 +18,7 @@ function submitStorageForm(event) {
     localStorage.setItem(keyInput.value, valueInput.value);
     keyInput.value = "";
     valueInput.value = "";
+    showData();
 }
 
 function onClickCearBtn() {
@@ -27,7 +28,16 @@ function onClickCearBtn() {
     else{
         alert("Nu sunt date in local storage!")
     }
-    function showData(){
+   
+}
+ function showData(){
+        const storageData=document.querySelector("#storageData");
+        storageData.innerHTML='';
+        if (localStorage.length===0){
+            const noData=document.createElement('p');
+            noData.innerText="Nu exista date in local Storage";
+            storageData.append(noData);
+        }
         
     }
-}
+showData();

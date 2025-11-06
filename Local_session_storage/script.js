@@ -2,7 +2,7 @@ const storageForm = document.querySelector("#storageForm");
 const clearBtn = document.querySelector("#clearBtn");
 storageForm.addEventListener("submit", submitStorageForm);
 clearBtn.addEventListener('click', onClickClearBtn);
-
+showData();
 function submitStorageForm(event) {
     event.preventDefault();
     const keyInput = storageForm.querySelector("#keyInput");
