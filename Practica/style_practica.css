@@ -20,6 +20,11 @@ input{
     padding: 1rem;
 
 }
-
-
-
+.items li{
+    background-color: aliceblue;
+    padding: 1rem;
+}
+.items li:hover{
+    background-color: white;
+    padding: 1 rem;
+}
