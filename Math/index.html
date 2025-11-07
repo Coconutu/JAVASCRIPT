@@ -8,12 +8,23 @@
   </head>
   <body>
     <h1 class="titlu">Calculează:</h1>
+    <div class="containerDificultate">
+        <label for="dificultate">Dificultate:</label>
+        <select id="dificultate" class="selectare-dificultate">
+            <option value="100">Ușor</option>
+            <option value="1000">Medie</option>
+            <option value="10000">Dificil</option>
+        </select>
+    </div>
+
+     <h1 id="intrebare"></h1>
     <div class="container">
-        <h1 class="textCalcule">Text calcule</h1>
+       
       <form id="calcForm" class="calc-form">
-        <input id="rezultat"  type="text" />
+        <input id="userRezultat"  type="text" />
         <button id="btnRezultat" class="btnRezultat">Trimite</button>
       </form>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
